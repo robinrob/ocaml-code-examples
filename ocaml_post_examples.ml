@@ -55,9 +55,15 @@ let _ =
         Printf.printf "big_num2: %f\n" big_num2 ;
     in
 
+    (* Un-comment to reproduce type inference error *)
+    (* let type_inference = 
+        Printf.printf "%f" 4 ;
+    in *)
+
     hello_world ;
     variables_1 ;
     variables_2 ;
     function_1 ;
     function_2 ;
     number_formatting ;
+    
